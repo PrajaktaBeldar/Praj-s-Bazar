@@ -1,0 +1,32 @@
+{
+  "name": "new-ecommerce",
+  "version": "1.0.0",
+  "description": "", 
+  "main": "backend/server.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "frontend": "npm start --prefix ./client",
+    "dev": "nodemon backend/server.js" 
+    },
+  "author": "", 
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3", 
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.33.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "nodemailer": "^6.6.3",
+    "react-icons": "^4.6.0",
+    "react-rating-stars-component": "^2.2.0",
+    "stripe": "^11.6.0",
+    "validator": "^13.6.0",
+    "webfontloader": "^1.6.28"
+  }
+}

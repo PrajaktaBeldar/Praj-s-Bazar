@@ -1,0 +1,72 @@
+.speedDial {
+    position: fixed;
+    right: 3vmax;
+    top: 3vmax;
+  }
+  
+  .speedDialIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;  
+  }
+  .main{
+    height: 20px;
+    width: 100vw;
+    max-width: 100%;
+    position: sticky;
+    top: 0%;
+    left: 0%; 
+    background-color: aquamarine;
+    display: flex;
+     padding: 1.5rem 1.5rem;
+     box-sizing: border-box;
+     justify-content: space-between;
+    align-items: center;
+  }
+
+  .firstH > a{
+    color: rgb(36, 33, 33);
+  }
+.firstH > div> svg{
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.secondH {
+  display: flex;
+  align-items: center;
+}
+.secondH > div {
+  margin: 10px;
+}
+.secondH > div > input {
+    outline:none;
+    padding: 5px;
+
+}
+
+
+.secondH > div:last-child >svg {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .speedDial {
+    position: fixed;
+    height: 2vmax;
+    width: 1vmax;
+    right: 5vmax;
+    top: 3vmax;
+  }
+
+ 
+
+.main {
+  display:inline-flex;
+}
+.secondH > div > input {
+  width: 100%;
+}
+
+
+}

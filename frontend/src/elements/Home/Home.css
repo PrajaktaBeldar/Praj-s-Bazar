@@ -1,0 +1,131 @@
+.homeMainPage {
+    background-image: url("../../images/shopping_btn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  
+    color: white;
+    max-width: 100%;  
+  }
+  
+  .homeMainPage > h1 {
+    margin-top: 11vmax; 
+   
+    font: 900 5vmax "Roboto";
+    color:brown;
+  
+ }
+ .b{ 
+  font-style: italic;
+  color: rgb(129, 20, 20);
+  font-size: 7vmax;
+ } 
+ 
+   
+  .homeMainPage > p {
+    margin-top: 5vmax;
+    font: 300 3vmax "Lucida Sans";
+    color: brown; 
+  } 
+  .homeMainPage >p > span{
+    font-size: 7vmax;
+    color:blueviolet;
+
+ }
+ .homeMainPage >h1::after {
+     z-index: 7;
+  }
+
+  .heading {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.4vmax;
+    border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+    width: 20vmax;
+    padding: 1vmax;
+    margin: 5vmax auto;
+    color: rgb(0, 0, 0, 0.7);
+  }
+  
+  .homeContainer{
+    display: flex;
+    margin: 2vmax auto;
+    width: 80vw; 
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+  }
+  
+  .Card { 
+    width: 14vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 2vmax;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+  }
+  
+  .Card > img {
+    width: 14vmax;
+    height:15vmax;
+  }
+  
+  .Card > div {
+    margin: 0.5vmax;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .CardS {
+    margin: 0.5vmax;
+    font: 300 0.7vmax "Roboto";
+  } 
+  
+  .Card > p {
+    font-family: "Roboto";
+    font-size: 1.2vmax;
+    margin: 1vmax 0.5vmax;
+    margin-bottom: 0;
+  }
+  
+  .Card > span {
+    margin: 0.5vmax;
+    color: tomato;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1vmax;
+  }
+  
+  .Card:hover {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  
+    transform: translateY(-1vmax); 
+  }
+  
+  @media screen and (max-width: 600px) {
+    .Card > p {
+      font-size: 1.7vmax;
+    }
+  
+    .Card > div {
+      margin: 0vmax;
+      display: block;
+    }
+  
+    .Card > span {  
+      font-size: 1.5vmax;
+    }
+  
+    .Card > div > span {
+      margin: 0 0.5vmax;
+      font: 300 1vmax "Roboto";
+    }
+  }
+  

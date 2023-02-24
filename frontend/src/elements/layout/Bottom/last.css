@@ -1,0 +1,29 @@
+.last{ 
+    position : fixed; 
+    width:100%;
+    left:0; 
+    bottom: 0;
+    z-index:4;
+    background-color: white;
+   
+    display: flex;
+    border-top: 1px solid rgb(223, 220, 220);
+    
+}  
+.last >div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.last > div > a{
+    color: rgb(32, 30, 30);
+}
+.last >div >svg{
+    margin: 1vmax 0px;
+    color: black !important;
+}
+
+    

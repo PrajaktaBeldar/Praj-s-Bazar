@@ -1,0 +1,110 @@
+.orderInformation {
+    background-color: white;
+  }
+  
+  .orderContainer > h1 {
+    font: 300 3vmax "Roboto";
+    margin: 4vmax 0;
+    color: rgb(75, 70, 70);
+  }
+  
+  .orderContainer {
+    padding: 5vmax;
+    padding-bottom: 0%;
+  }
+  
+  .orderContainer > p {
+    font: 400 1.8vmax "Roboto";
+  }
+  
+  .orderContainerBox,
+  .orderCartItemsContainer {
+    margin: 2vmax;
+  }
+  
+  .orderContainerBox > div {
+    display: flex;
+    margin: 1vmax 0;
+  }
+  
+  .orderContainerBox > div > p {
+    font: 400 1vmax "Roboto";
+    color: black;
+  }
+  .orderContainerBox > div > span {
+    margin: 0 1vmax;
+    font: 100 1vmax "Roboto";
+    color: #575757;
+  }
+  
+  .orderCartItems > p {
+    font: 400 1.8vmax "Roboto";
+  }
+  
+  .orderCartItems {
+    padding: 2vmax 5vmax;
+    border-top: 1px solid rgba(0, 0, 0, 0.164);
+  }
+  
+  .orderCartItemsContainer > div {
+    display: flex;
+    font: 400 1vmax "Roboto";
+    align-items: center;
+    margin: 2vmax 0;
+  }
+  
+  .orderCartItemsContainer > div > img {
+    width: 3vmax;
+  }
+  
+  .orderCartItemsContainer > div > a {
+    color: #575757;
+    margin: 0 2vmax;
+    width: 60%;
+    text-decoration: none;
+  }
+  
+  .orderCartItemsContainer > div > span {
+    font: 100 1vmax "Roboto";
+    color: #5e5e5e;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .orderDetailsContainer > p {
+      font: 400 6vw "Roboto";
+    }
+  
+    .orderContainerBox > div {
+      margin: 6vw 0;
+    }
+  
+    .orderContainerBox > div > p {
+      font: 400 4vw "Roboto";
+    }
+    .orderContainerBox > div > span {
+      font: 100 4vw "Roboto";
+    }
+  
+    .orderCartItems > p {
+      font: 400 6vw "Roboto";
+    }
+  
+    .orderCartItemsContainer > div {
+      font: 400 4vw "Roboto"; 
+      margin: 4vw 0;
+    } 
+    
+    .orderCartItemsContainer > div > img {
+      width: 10vw;
+    }
+   
+    .orderCartItemsContainer > div > a {
+      margin: 2vw;
+      width: 30%;
+    }
+  
+    .orderCartItemsContainer > div > span {
+      font: 100 4vw "Roboto";
+    }
+  }
+  
